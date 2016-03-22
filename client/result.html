@@ -1,0 +1,26 @@
+<template name="Result">
+  <div class="col-md-12">
+    <h1>Results Breakdown</h1>
+  </div>
+  <div class="col-md-3">
+    <p>Introversion vs. Extroversion</p>
+    <canvas id="ieChart"></canvas>
+  </div>
+  <div class="col-md-3">
+    <p>Intuition vs. Sensing</p>
+    <canvas id="nsChart"></canvas>
+  </div>
+  <div class="col-md-3">
+    <p>Thinking vs. Feeling</p>
+    <canvas id="tfChart"></canvas>
+  </div>
+  <div class="col-md-3">
+    <p>Judging vs. Perceiving</p>
+    <canvas id="jpChart"></canvas>
+  </div>
+  <div class="col-md-12">
+    <h1>Personality Type</h1>
+    <p>Based on your results, you are an {{IE}}.{{NS}}.{{TF}}.{{JP}}.</p>
+    <button class="btn btn-primary retake-btn">Click here to try this quiz again!</button>
+  </div>
+</template>
